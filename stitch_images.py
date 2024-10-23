@@ -4,7 +4,6 @@ from datetime import timedelta
 import os
 from pathlib import Path
 
-
 def stitchTogether(data_path):
     print('Stitching Image')
 

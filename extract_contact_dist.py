@@ -48,8 +48,8 @@ for filename in stitched_image_files:
             # android contact distance scaling
             # contactDistCoord = np.sqrt((cPoints[0][0]-cPoints[1][0])**2+(cPoints[0][1]-cPoints[1][1])**2)*0.0103
 
-            # print(fileName.name)
-            results.append([fileName.name,contactDistCoord])
+            file_label = str(os.path.basename(os.path.dirname(fileName))+'_'+fileName.name)
+            results.append([file_label,contactDistCoord])
             # close image        
             cv2.destroyAllWindows()
 

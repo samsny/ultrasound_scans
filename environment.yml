@@ -1,0 +1,11 @@
+name: ultrasound_scan_env
+channels: 
+  - defaults
+  - conda-forge 
+dependencies:
+  - python = 3.9
+  - numpy
+  - opencv
+  - pandas
+  - glob2
+  - pyyaml

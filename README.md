@@ -32,7 +32,7 @@ data/
 │   ├── ...
 │   └── video_n.mp4
 ```
-Once data folder is set up, run ```stitch_image.py```.
+Once data folder is set up, run ```stitch_image.py```. It may take a few minutes to stitch together each image. The code extracts 10 frames per second, and stitches together the frames into a single image. 
 
 ### Extract distances within images:
 
